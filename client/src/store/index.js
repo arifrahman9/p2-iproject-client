@@ -115,6 +115,7 @@ export default new Vuex.Store({
           },
         })
           .then(({ data }) => {
+            console.log(data.rows)
             resolve(data.rows)
           })
           .catch((err) => {

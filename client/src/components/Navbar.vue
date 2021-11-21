@@ -30,7 +30,7 @@
               class="nav-link active"
               aria-current="page"
               href="#"
-              >List Product</a
+              >Products</a
             >
           </li>
           <li class="nav-item dropdown">
@@ -127,4 +127,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.navbar {
+  box-shadow: 0 8px 6px -6px rgb(92, 90, 88);
+}
+</style>

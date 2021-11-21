@@ -27,7 +27,7 @@
           :product="product"
         ></ProductCard>
       </div>
-      <nav aria-label="Page navigation">
+      <nav aria-label="Page navigation" class="mt-3">
         <ul class="pagination justify-content-center align-items-center">
           <li class="page-item">
             <a
@@ -120,11 +120,12 @@ export default {
         })
     },
     plusPage() {
-      if (this.lengthData >= 9) {
-        this.page += 1
-      } else {
-        this.page -= 1
-      }
+      // if (this.lengthData >= 9) {
+      //   this.page += 1
+      // } else {
+      //   this.page -= 1
+      // }
+      this.page += 1
       this.fetchProduct()
     },
     minusPage() {

@@ -1,18 +1,18 @@
 <template>
-  <div class="col-2 mx-4">
-    <div class="card mb-3" style="height: 670px">
+  <div class="col mx-2">
+    <div class="card mb-3" style="height: 100%; width: 100%">
       <img
         :src="product.imageUrl"
         class="card-img"
         alt="Previous"
-        height="180px"
-        width="120px"
+        height="50%"
+        width="90%"
       />
-      <div class="card-body" style="height: 400px">
+      <div class="card-body" style="height: 100%; width: 100%">
         <h6 class="card-title">{{ product.name }}</h6>
         <ul class="list-group list-group-flush">
           <li class="list-group-item" style="text-align: left">
-            Price : {{ formatePrice }}
+           Price : {{ formatePrice }}
           </li>
           <li class="list-group-item" style="text-align: left">
             Stock : {{ product.stock }}

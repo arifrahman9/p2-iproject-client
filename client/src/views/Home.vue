@@ -5,10 +5,10 @@
     <div class="jumbotron">
       <div
         class="row d-flex justify-content-center align-items-center"
-        style="height: 90vh"
+        style="height: 100vh"
       >
-        <div class="col-6">
-          <h1 class="text-light pb-2">
+        <div class="col ms-3">
+          <h1 class="text-dark pb-2">
             Website Cashier untuk Mencatat Transaksi Penjualan
           </h1>
           <button
@@ -27,6 +27,9 @@
           >
             Register
           </button>
+        </div>
+        <div class="col ilustrator">
+          <img src="../img/undraw_around_the_world_re_n353.svg" />
         </div>
       </div>
     </div>
@@ -51,8 +54,13 @@ export default {
 
 <style>
 .jumbotron {
-  background-image: url('../img/cashier2.jpg');
-  height: 90vh;
+  background-color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+.ilustrator {
+  height: 85%;
+  width: 90%;
 }
 h4 {
   text-align: center;
